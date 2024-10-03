@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif; /* Change the font */
+  background-color: #f0f0f0; /* Light background for the entire app */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center; /* Center align the main title */
+}

@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align items horizontally */
+    padding: 20px;
+}
+
+.blog-post {
+    background-color: #f9f9f9; /* Light background for the blog post */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px;
+    margin: 10px 0; /* Space between blog posts */
+    width: 80%; /* Width of the blog post */
+    text-align: center; /* Center align the content */
+    max-width: 600px; /* Max width for larger screens */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Center align images */
+.blog-post img {
+    display: block; /* Make the image a block element */
+    margin-left: auto; /* Automatic left margin */
+    margin-right: auto; /* Automatic right margin */
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: rounded corners for images */
+}
+
+h2 {
+    text-align: center; /* Center align the title */
+}
+
+p {
+    text-align: justify; /* Justify the text for better readability */
+}
+
+.blog-post button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    padding: 5px 10px; /* Padding */
+}
+
+.blog-post button:hover {
+    background-color: #017cff; /* Darker shade on hover */
+}
+
+.comment-input {
+    margin-top: 10px; /* Space above the comment input */
+}
+
+.comment-input input {
+    margin-right: 5px; /* Space between inputs */
+    padding: 5px; /* Padding inside input */
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Change background on hover */
+}
+
+#like-button{
+    background-color: blue;
+}
+
+#delete-button{
+    background-color: red;
+}
